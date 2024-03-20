@@ -12,6 +12,7 @@ Alley is a feature-rich web browser built with PyQt5. It provides a user-friendl
 
 ## Download and Installation
 Download the latest release from [here](https://drive.google.com/file/u/1/d/1M6sxwHBWNsaD3IImpLzvRI7QcWojT6Vl/view?usp=drive_link).
+
 **Installation for Windows**
 
 1. Extract the downloaded zip file.
