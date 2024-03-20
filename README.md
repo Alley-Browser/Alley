@@ -19,7 +19,8 @@ Download the latest release from [here](https://drive.google.com/file/u/1/d/1M6s
 2. Run the application executable.
 
 **Installation for Debian**
-
+1. Locate to directory in which the file was downloaded
+2. Open terminal and run the following command
 ```bash
 sudo dpkg -i Alley-browser_1.0-1.deb
 ```
