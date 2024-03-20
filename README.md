@@ -22,6 +22,7 @@ Download the latest release from [here](https://drive.google.com/file/u/1/d/1M6s
 
 ```bash
 sudo dpkg -i Alley-browser_1.0-1.deb
+```
 
 
 ## How to Use
