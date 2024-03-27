@@ -1,0 +1,104 @@
+/* Set a base font size for the entire application */
+* {
+  font-size: 14px;
+}
+
+/* Set the background color for main windows and dialogs */
+QWidget, QDialog, QMainWindow, QWebEngineView {
+  background-color: red;
+}
+
+/* Apply styling to various input fields */
+QTextEdit, QPlainTextEdit, QLineEdit, QSpinBox, QDoubleSpinBox, QTimeEdit, QDateTimeEdit, QDateEdit {
+  height: 30px;
+  border: 1px solid #00A9FF;
+  padding: 5px;
+  color: white;
+  background-color: #333333;
+  font-size: 14px;
+  border-radius: 5px;
+}
+/* Apply styling to buttons, checkboxes, and radio buttons */
+QToolButton, QPushButton, QCheckBox, QRadioButton {
+  border-style: solid;
+  border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #cc0000, stop:1 #003366);
+  border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #cc0000, stop:1 #003366);
+  border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #003366, stop:1 #cc0000);
+  border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #003366, stop:1 #cc0000);
+  color: black  ;
+  padding: 4px;
+  background-color : blue ;
+}
+
+/* Apply hover styling to buttons, checkboxes, and radio buttons */
+QToolButton:hover, QPushButton:hover, QCheckBox:hover, QRadioButton:hover {
+  border-style: solid;
+  border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #990000, stop:1 #001933);
+  border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #990000, stop:1 #001933);
+  border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #001933, stop:1 #990000);
+  border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #001933, stop:1 #990000);
+  border-width: 2px;
+  border-radius: 6px;
+  color: white;
+  padding: 4px;
+  background-color : blue;
+}
+
+/* Apply pressed styling to buttons, checkboxes, and radio buttons */
+QToolButton:pressed, QPushButton:pressed, QCheckBox:pressed, QRadioButton:pressed {
+  border-style: solid;
+  border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #cc0000, stop:1 #003366);
+  border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #cc0000, stop:1 #003366);
+  border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 #003366, stop:1 #cc0000);
+  border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 #003366, stop:1 #cc0000);
+  border-width: 2px;
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 4px;
+  background-color: rgba(204, 0, 0, 1);
+}
+
+/* Apply styling to sliders */
+QSlider::groove:horizontal {
+  background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #003366, stop:1 #cc0000);
+  height: 8px;
+  border: 2px solid #3a3939;
+  margin: 0px;
+  border-radius: 6px;
+}
+
+QSlider::handle:horizontal {
+  background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #cc0000, stop:1 #003366);
+  border: 2px solid #3a3939;
+  width: 20px;
+  height: 20px;
+  margin: -6px 0;
+  border-radius: 10px;
+}
+QToolBar,QTabWidget,QTabBar {
+  background-color: blue;
+  color: black;
+}
+QTabBar::tab
+{
+  background-color: blue;
+}
+QTabWidget::tab-bar {
+  alignment: left;
+}
+
+QTabBar::tab {
+  background-color: blue;
+  padding: 8px;
+  min-width: 100px;
+  color: #FFFFFF;
+}
+
+QTabBar::tab:selected {
+  background-color: black;
+}
+
+
+QToolButton::menu-indicator {
+  image: none; /* Hide the menu indicator arrow */
+}

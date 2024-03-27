@@ -1,0 +1,99 @@
+/* Common styles for several widgets */
+QWidget, QDialog, QMainWindow, QWebEngineView {
+  background-color: #d3d3d3;
+  font-family: Segoe UI, Arial, sans-serif;
+  font-size: 9pt;
+}
+
+/* QLineEdit styles */
+QLineEdit {
+  height: 80px;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 14px;
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #f0f0f0, stop:1 #d3d3d3);
+}
+
+/* QListWidget styles */
+QListWidget {
+  height: 40px;
+  border: 1px solid #a5a5a5;
+  border-radius: 4px;
+  color: #000000;
+  background-color: #d3d3d3;
+}
+
+QToolButton::menu-indicator {
+  image: none; /* Hide the menu indicator arrow */
+}
+
+/* QPushButton styles */
+QPushButton, [objectName="minimizeButton"] {
+  border: 1px solid #a5a5a5;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #f0f0f0, stop:1 #d3d3d3);
+}
+
+QPushButton:hover, QToolButton:hover, QToolButton[objectName="minimizeButton"]:hover {
+  background-color: #e5e5e5;
+  color: #000000;
+}
+
+/* QComboBox styles */
+QComboBox {
+  border: 1px solid #a5a5a5;
+  border-radius: 4px;
+  color: #000000;
+  background-color: #d3d3d3;
+}
+
+QComboBox:hover {
+  background-color: #e5e5e5;
+  color: #000000;
+}
+
+/* QProgressBar styles */
+QProgressBar {
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+QProgressBar::chunk {
+  background-color: #007acc;
+}
+
+/* QPixmap styles */
+QPixmap {
+  border-radius: 4px;
+  border: 1px solid #a5a5a5;
+}
+
+/* QToolBar styles */
+QToolBar {
+  border: 1px solid #a5a5a5;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: #d3d3d3;
+}
+
+/* QMenu styles */
+QMenu {
+  background-color: #f5f5f5;
+  border: 1px solid #a5a5a5;
+  border-radius: 1px;
+  border: solid 3px #000000;
+}
+
+QMenu::item {
+  padding: 5px;
+}
+
+QMenu::item:selected {
+  background-color: #e5e5e5;
+  color: #000000;
+}
